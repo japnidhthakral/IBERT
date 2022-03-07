@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Nov 11 15:26:40 2021
+# Process ID: 8596
+# Current directory: c:/Users/japni/ibert_7series_gtp_0_ex
+# Command line: vivado.exe -notrace -source c:/Users/japni/project_2/project_2.gen/sources_1/ip/ibert_7series_gtp_0/ibert_7series_gtp_0_ex.tcl
+# Log file: c:/Users/japni/ibert_7series_gtp_0_ex/vivado.log
+# Journal file: c:/Users/japni/ibert_7series_gtp_0_ex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source c:/Users/japni/project_2/project_2.gen/sources_1/ip/ibert_7series_gtp_0/ibert_7series_gtp_0_ex.tcl -notrace
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_project C:/Users/japni/IO_check/IO_check.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.C_SYSCLK_IO_PIN_LOC_P {U3} CONFIG.C_SYSCLK_IO_PIN_LOC_N {V3} CONFIG.C_PROTOCOL_MAXLINERATE_1 {3.125} CONFIG.C_PROTOCOL_MAXLINERATE_2 {3.125} CONFIG.C_PROTOCOL_MAXLINERATE_3 {3.125}] [get_ips ibert_7series_gtp_0]
+current_project ibert_7series_gtp_0_ex
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+close_project

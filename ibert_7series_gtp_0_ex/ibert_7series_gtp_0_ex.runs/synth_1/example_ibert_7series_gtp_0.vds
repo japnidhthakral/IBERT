@@ -1,0 +1,674 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 15 14:27:41 2021
+# Process ID: 5572
+# Current directory: c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1
+# Command line: vivado.exe -log example_ibert_7series_gtp_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source example_ibert_7series_gtp_0.tcl
+# Log file: c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1/example_ibert_7series_gtp_0.vds
+# Journal file: c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source example_ibert_7series_gtp_0.tcl -notrace
+Command: synth_design -top example_ibert_7series_gtp_0 -part xc7a50tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Device 21-403] Loading part xc7a50tfgg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16196
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1135.141 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'example_ibert_7series_gtp_0' [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.v:31]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS_GTE2' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51811]
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS_GTE2' (1#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:51811]
+INFO: [Synth 8-6157] synthesizing module 'IBUFGDS' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:52155]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFGDS' (2#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:52155]
+INFO: [Synth 8-6157] synthesizing module 'ibert_7series_gtp_0' [c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.gen/sources_1/ip/ibert_7series_gtp_0/synth/ibert_7series_gtp_0.v:65]
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_CHANNEL' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:35766]
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_CHANNEL' (28#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:35766]
+INFO: [Synth 8-6157] synthesizing module 'BUFH' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6155] done synthesizing module 'BUFH' (31#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1319]
+INFO: [Synth 8-6157] synthesizing module 'GTPE2_COMMON' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:36468]
+INFO: [Synth 8-6155] done synthesizing module 'GTPE2_COMMON' (33#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:36468]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59963]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (36#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:59963]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (37#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6157] synthesizing module 'BSCANE2' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:884]
+INFO: [Synth 8-6155] done synthesizing module 'BSCANE2' (38#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:884]
+INFO: [Synth 8-6157] synthesizing module 'BUFR' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1410]
+INFO: [Synth 8-6155] done synthesizing module 'BUFR' (40#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:1410]
+INFO: [Synth 8-6155] done synthesizing module 'ibert_7series_gtp_0' (87#1) [c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.gen/sources_1/ip/ibert_7series_gtp_0/synth/ibert_7series_gtp_0.v:65]
+WARNING: [Synth 8-7071] port 'RXOUTCLK_O' of module 'ibert_7series_gtp_0' is unconnected for instance 'u_ibert_core' [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.v:101]
+WARNING: [Synth 8-7023] instance 'u_ibert_core' of module 'ibert_7series_gtp_0' has 8 connections declared, but only 7 given [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'example_ibert_7series_gtp_0' (88#1) [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.v:31]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1151.359 ; gain = 16.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1151.359 ; gain = 16.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1151.359 ; gain = 16.219
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.414 . Memory (MB): peak = 1151.359 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc:46]
+Finished Parsing XDC File [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/example_ibert_7series_gtp_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/example_ibert_7series_gtp_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1218.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.170 . Memory (MB): peak = 1218.211 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50tfgg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[0].u_ch /U_CHANNEL_REGS/reg_310/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 105).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[1].u_ch /U_CHANNEL_REGS/reg_310/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 105).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[2].u_ch /U_CHANNEL_REGS/reg_310/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 105).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[3].u_ch /U_CHANNEL_REGS/reg_310/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 105).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[0].u_ch /U_CHANNEL_REGS/reg_30E/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 106).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[1].u_ch /U_CHANNEL_REGS/reg_30E/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 106).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[2].u_ch /U_CHANNEL_REGS/reg_30E/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 106).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[3].u_ch /U_CHANNEL_REGS/reg_30E/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 106).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[0].u_ch /U_CHANNEL_REGS/reg_312/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 107).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[1].u_ch /U_CHANNEL_REGS/reg_312/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 107).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[2].u_ch /U_CHANNEL_REGS/reg_312/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 107).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[3].u_ch /U_CHANNEL_REGS/reg_312/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 107).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[0].u_ch /U_CHANNEL_REGS/reg_314/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 108).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[1].u_ch /U_CHANNEL_REGS/reg_314/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 108).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[2].u_ch /U_CHANNEL_REGS/reg_314/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 108).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[3].u_ch /U_CHANNEL_REGS/reg_314/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 108).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[0].u_ch /U_CHANNEL_REGS/reg_306/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 110).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[1].u_ch /U_CHANNEL_REGS/reg_306/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 110).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[2].u_ch /U_CHANNEL_REGS/reg_306/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 110).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/\QUAD[0].u_q /\CH[3].u_ch /U_CHANNEL_REGS/reg_306/\I_EN_STAT_EQ1.U_STAT /xsdb_reg_reg. (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 110).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 112).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_d1_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 113).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_d2_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 114).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 115).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_d1_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 116).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/\SUBCORE_FIFO.xsdb_rdfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_d2_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 117).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 119).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_d1_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 120).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.rd_rst_asreg_d2_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 121).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 122).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_d1_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 123).
+Applied set_property ASYNC_REG = false for u_ibert_core/inst/UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/\SUBCORE_FIFO.xsdb_wrfifo_inst /inst_fifo_gen/\gconvfifo.rf /\grf.rf /rstblk/\ngwrdrst.grst.g7serrst.wr_rst_asreg_d2_reg . (constraint file  c:/Users/japni/ibert_7series_gtp_0_ex/imports/example_ibert_7series_gtp_0.xdc, line 124).
+Applied set_property KEEP_HIERARCHY = SOFT for u_ibert_core. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'rh_state_reg' in module 'gtpe2_reset_controller'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ibert_rxcdr_reset'
+INFO: [Synth 8-802] inferred FSM for state register 'gpregsm1.curr_fwft_state_reg' in module 'rd_fwft'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'xsdb_bus_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                       0000000001 |                             0001
+               PLL_RESET |                       0000000010 |                             0010
+         WAIT_PLL0UNLOCK |                       0000000100 |                             0011
+         WAIT_PLL1UNLOCK |                       0000001000 |                             0100
+          ASSERT_GTRESET |                       0000010000 |                             0101
+       DEASSERT_PLLRESET |                       0000100000 |                             0110
+           WAIT_PLL1LOCK |                       0001000000 |                             1000
+           WAIT_PLL0LOCK |                       0010000000 |                             0111
+        DEASSERT_GTRESET |                       0100000000 |                             1001
+           CHK_RESETDONE |                       1000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rh_state_reg' using encoding 'one-hot' in module 'gtpe2_reset_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   READY |                               00 |                               00
+         ASSERT_CDRRESET |                               01 |                               01
+                    WAIT |                               10 |                               10
+        WAIT_RXRESETDONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ibert_rxcdr_reset'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 invalid |                               00 |                               00
+            stage1_valid |                               01 |                               10
+       both_stages_valid |                               10 |                               11
+            stage2_valid |                               11 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'gpregsm1.curr_fwft_state_reg' using encoding 'sequential' in module 'rd_fwft'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  InitSt |             00000000000000000001 |                            00000
+                 ResetSt |             00000000000000000010 |                            00001
+                  IdleSt |             00000000000000000100 |                            00010
+                ClrErrSt |             00000000000000001000 |                            00011
+            WriteStartSt |             00000000000000010000 |                            01111
+               WriteWdSt |             00000000000000100000 |                            10000
+              WriteAckSt |             00000000000001000000 |                            10001
+              WriteErrSt |             00000000000010000000 |                            10011
+              WriteIncSt |             00000000000100000000 |                            10010
+             ReadStartSt |             00000000001000000000 |                            00100
+             ReadFlushSt |             00000000010000000000 |                            00101
+                ReadWdSt |             00000000100000000000 |                            00110
+               ReadAckSt |             00000001000000000000 |                            00111
+               ReadErrSt |             00000010000000000000 |                            01000
+            ReadBStartSt |             00000100000000000000 |                            01001
+              ReadWaitSt |             00001000000000000000 |                            01100
+              ReadStopSt |             00010000000000000000 |                            01101
+              ReadNextSt |             00100000000000000000 |                            01010
+           ReadNextAckSt |             01000000000000000000 |                            01011
+              ReadBErrSt |             10000000000000000000 |                            01110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'xsdb_bus_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   48 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 5     
+	   4 Input   32 Bit       Adders := 1     
+	   2 Input   16 Bit       Adders := 16    
+	   3 Input    8 Bit       Adders := 4     
+	   3 Input    7 Bit       Adders := 4     
+	   2 Input    7 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 13    
+	   2 Input    5 Bit       Adders := 28    
+	   2 Input    4 Bit       Adders := 27    
++---XORs : 
+	   2 Input     40 Bit         XORs := 8     
+	   2 Input     16 Bit         XORs := 8     
+	   2 Input      1 Bit         XORs := 556   
++---XORs : 
+	                4 Bit    Wide XORs := 4     
+	                3 Bit    Wide XORs := 4     
+	                2 Bit    Wide XORs := 4     
++---Registers : 
+	              128 Bit    Registers := 1     
+	               64 Bit    Registers := 1     
+	               48 Bit    Registers := 37    
+	               40 Bit    Registers := 12    
+	               32 Bit    Registers := 4     
+	               31 Bit    Registers := 16    
+	               28 Bit    Registers := 2     
+	               23 Bit    Registers := 8     
+	               18 Bit    Registers := 2     
+	               17 Bit    Registers := 5     
+	               16 Bit    Registers := 440   
+	               15 Bit    Registers := 8     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 12    
+	                7 Bit    Registers := 17    
+	                6 Bit    Registers := 19    
+	                5 Bit    Registers := 33    
+	                4 Bit    Registers := 91    
+	                3 Bit    Registers := 18    
+	                2 Bit    Registers := 17    
+	                1 Bit    Registers := 413   
++---Muxes : 
+	   2 Input   40 Bit        Muxes := 8     
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 8     
+	   2 Input   23 Bit        Muxes := 8     
+	  20 Input   20 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 23    
+	  25 Input   16 Bit        Muxes := 3     
+	   2 Input   16 Bit        Muxes := 18    
+	   8 Input   16 Bit        Muxes := 2     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 8     
+	  10 Input   10 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 32    
+	   2 Input    7 Bit        Muxes := 9     
+	   2 Input    6 Bit        Muxes := 20    
+	   2 Input    5 Bit        Muxes := 2     
+	   3 Input    5 Bit        Muxes := 1     
+	  20 Input    5 Bit        Muxes := 7     
+	   5 Input    4 Bit        Muxes := 16    
+	   2 Input    4 Bit        Muxes := 21    
+	   3 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 19    
+	  25 Input    3 Bit        Muxes := 2     
+	  20 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 41    
+	   4 Input    2 Bit        Muxes := 7     
+	  20 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 75    
+	  10 Input    1 Bit        Muxes := 20    
+	   4 Input    1 Bit        Muxes := 11    
+	  16 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 1     
+	  20 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+DSP Report: Generating DSP a_reg, operation Mode is: (P+A2:B2)'.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: register a_reg is absorbed into DSP a_reg.
+DSP Report: operator count is absorbed into DSP a_reg.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:03 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++---------------------------+----------------------------------------------------------+---------------+----------------+
+|Module Name                | RTL Object                                               | Depth x Width | Implemented As | 
++---------------------------+----------------------------------------------------------+---------------+----------------+
+|ones_counter_lut6          | EXP_O                                                    | 64x3          | LUT            | 
+|xsdb_bus_controller        | auto_sl_drdy                                             | 32x1          | LUT            | 
+|xsdb_bus_controller        | auto_sl_drdy                                             | 32x1          | LUT            | 
+|xsdb_bus_controller        | inc_addr_r                                               | 32x1          | LUT            | 
+|xsdb_bus_controller        | inc_addr_r                                               | 32x1          | LUT            | 
+|xsdb_bus_controller        | dec_wdc_r                                                | 32x1          | LUT            | 
+|xsdb_bus_controller        | dec_wdc_r                                                | 32x1          | LUT            | 
+|xsdb_bus_controller        | sl_den_r                                                 | 32x1          | LUT            | 
+|xsdb_bus_controller        | sl_dwe_r                                                 | 32x1          | LUT            | 
+|xsdb_bus_controller        | sl_rdmux_sel_r                                           | 32x1          | LUT            | 
+|xsdb_bus_controller        | sl_berr_r                                                | 32x1          | LUT            | 
+|xsdb_bus_controller        | ma_err_r                                                 | 32x2          | LUT            | 
+|xsdb_bus_controller        | timer_rst                                                | 32x1          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c2/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c1/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c0/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c2/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c1/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c0/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c2/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c1/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c0/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c2/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c1/EXP_O | 64x3          | LUT            | 
+|gtpe2_channel_slave        | U_PATTERN_HANDLER/gen16.patchk16/i_ones_counter/c0/EXP_O | 64x3          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/ma_err_r                           | 32x2          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/sl_berr_r                          | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/sl_rdmux_sel_r                     | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/timer_rst                          | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/inc_addr_r                         | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/inc_addr_r                         | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/dec_wdc_r                          | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/dec_wdc_r                          | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/sl_den_r                           | 32x1          | LUT            | 
+|chipscope_icon2xsdb_mstrbr | U_XSDB_BUS_CONTROLLER/sl_dwe_r                           | 32x1          | LUT            | 
++---------------------------+----------------------------------------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+|Module Name                  | RTL Object                                                                                                                                | Inference      | Size (Depth x Width) | Primitives  | 
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+|u_ibert_core/inst/UUT_MASTER | U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute | 16 x 16              | RAM32M x 3  | 
+|u_ibert_core/inst/UUT_MASTER | U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute | 16 x 16              | RAM32M x 3  | 
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below)
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|ibert_accumulator | (P+A2:B2)'  | 30     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
++------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:13 . Memory (MB): peak = 1218.211 ; gain = 83.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:16 . Memory (MB): peak = 1255.770 ; gain = 120.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+|Module Name                  | RTL Object                                                                                                                                | Inference      | Size (Depth x Width) | Primitives  | 
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+|u_ibert_core/inst/UUT_MASTER | U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdb_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute | 16 x 16              | RAM32M x 3  | 
+|u_ibert_core/inst/UUT_MASTER | U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdb_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg | User Attribute | 16 x 16              | RAM32M x 3  | 
++-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+----------------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1289.758 ; gain = 154.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[39] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[38] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[37] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[39] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[38] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[37] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/rxdata40_i_inferred:in0[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[39] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[38] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[37] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[36] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[35] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[34] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[33] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[32] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin QUAD[0].u_q/CH[1].u_ch/U_PATTERN_HANDLER/txdata40_i_inferred:in0[20] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:22 ; elapsed = 00:01:26 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:22 ; elapsed = 00:01:26 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------------+-------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name       | RTL Name                                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------------+-------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|ibert_7series_gtp | QUAD[0].u_q/CH[0].u_ch/U_PATTERN_HANDLER/gen16.patchk16/data_r6_reg[15] | 4      | 64    | NO           | NO                 | YES               | 64     | 0       | 
++------------------+-------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BSCANE2       |     1|
+|2     |BUFG          |     1|
+|3     |BUFH          |     5|
+|4     |BUFR          |     1|
+|5     |CARRY4        |   182|
+|6     |DSP48E1       |     8|
+|8     |GTPE2_CHANNEL |     4|
+|9     |GTPE2_COMMON  |     1|
+|10    |IBUFDS_GTE2   |     2|
+|11    |LUT1          |   492|
+|12    |LUT2          |   751|
+|13    |LUT3          |   304|
+|14    |LUT4          |   520|
+|15    |LUT5          |   844|
+|16    |LUT6          |  1856|
+|17    |MMCME2_ADV    |     1|
+|18    |MUXF7         |   384|
+|19    |MUXF8         |    64|
+|20    |RAM32M        |     6|
+|21    |SRL16E        |    64|
+|22    |FDCE          |   280|
+|23    |FDPE          |    68|
+|24    |FDRE          | 10213|
+|25    |FDSE          |    36|
+|26    |IBUF          |     4|
+|27    |IBUFGDS       |     1|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:25 ; elapsed = 00:01:28 . Memory (MB): peak = 1300.707 ; gain = 165.566
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 356 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:22 . Memory (MB): peak = 1300.707 ; gain = 98.715
+Synthesis Optimization Complete : Time (s): cpu = 00:01:25 ; elapsed = 00:01:29 . Memory (MB): peak = 1300.707 ; gain = 165.566
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.326 . Memory (MB): peak = 1301.520 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 647 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 8 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 8 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1320.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 7 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instance 
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 6 instances
+
+Synth Design complete, checksum: e8553743
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 1320.777 ; gain = 185.637
+INFO: [Common 17-1381] The checkpoint 'c:/Users/japni/ibert_7series_gtp_0_ex/ibert_7series_gtp_0_ex.runs/synth_1/example_ibert_7series_gtp_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file example_ibert_7series_gtp_0_utilization_synth.rpt -pb example_ibert_7series_gtp_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 15 14:29:28 2021...
